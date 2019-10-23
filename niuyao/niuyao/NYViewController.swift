@@ -58,6 +58,7 @@ class NYViewController: UIViewController {
             make.top.left.equalToSuperview().offset(30)
             make.right.equalToSuperview().offset(-30)
             
+            
         }
         
         //跟新约束 updateConstraints
