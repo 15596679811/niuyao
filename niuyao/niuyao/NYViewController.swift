@@ -122,7 +122,6 @@ class NYViewController: UIViewController {
         }
         
         print("这是合并分支")
-//        tableView.rx.modelSelected(Music.self).subscribe
         
     }
     @objc func clickButton() -> Void {
