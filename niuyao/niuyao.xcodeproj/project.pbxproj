@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,14 @@
 		4C8D67CF235E8FAE00264912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8D67CE235E8FAE00264912 /* Assets.xcassets */; };
 		4C8D67D2235E8FAE00264912 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8D67D1235E8FAE00264912 /* Preview Assets.xcassets */; };
 		4C8D67D5235E8FAE00264912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8D67D3235E8FAE00264912 /* LaunchScreen.storyboard */; };
+		4C8D67DD235EB41B00264912 /* NYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D67DC235EB41B00264912 /* NYViewController.swift */; };
+		4C8D67E1235EF1C600264912 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D67E0235EF1C600264912 /* Music.swift */; };
+		4C8D67E5235EF49900264912 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D67E4235EF49900264912 /* MusicListViewModel.swift */; };
+		834E00CFAF415380DD3ABA47 /* Pods_niuyao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB8233B51A33D9F03525E62 /* Pods_niuyao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		365F388BEC810AC10A817625 /* Pods-niuyao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-niuyao.debug.xcconfig"; path = "Target Support Files/Pods-niuyao/Pods-niuyao.debug.xcconfig"; sourceTree = "<group>"; };
 		4C8D67C5235E8FAA00264912 /* niuyao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niuyao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8D67C8235E8FAA00264912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8D67CA235E8FAA00264912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		4C8D67D1235E8FAE00264912 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C8D67D4235E8FAE00264912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8D67D6235E8FAE00264912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8D67DC235EB41B00264912 /* NYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYViewController.swift; sourceTree = "<group>"; };
+		4C8D67E0235EF1C600264912 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		4C8D67E4235EF49900264912 /* MusicListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		9C91208CE43D8D07E65CCDA5 /* Pods-niuyao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-niuyao.release.xcconfig"; path = "Target Support Files/Pods-niuyao/Pods-niuyao.release.xcconfig"; sourceTree = "<group>"; };
+		ACB8233B51A33D9F03525E62 /* Pods_niuyao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_niuyao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834E00CFAF415380DD3ABA47 /* Pods_niuyao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				4C8D67C7235E8FAA00264912 /* niuyao */,
 				4C8D67C6235E8FAA00264912 /* Products */,
+				BEE43C65A0AFB88CF484D75D /* Pods */,
+				8757384685D3001392B912E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +72,9 @@
 				4C8D67C8235E8FAA00264912 /* AppDelegate.swift */,
 				4C8D67CA235E8FAA00264912 /* SceneDelegate.swift */,
 				4C8D67CC235E8FAA00264912 /* ContentView.swift */,
+				4C8D67DC235EB41B00264912 /* NYViewController.swift */,
+				4C8D67E0235EF1C600264912 /* Music.swift */,
+				4C8D67E4235EF49900264912 /* MusicListViewModel.swift */,
 				4C8D67CE235E8FAE00264912 /* Assets.xcassets */,
 				4C8D67D3235E8FAE00264912 /* LaunchScreen.storyboard */,
 				4C8D67D6235E8FAE00264912 /* Info.plist */,
@@ -75,6 +91,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8757384685D3001392B912E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8233B51A33D9F03525E62 /* Pods_niuyao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE43C65A0AFB88CF484D75D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365F388BEC810AC10A817625 /* Pods-niuyao.debug.xcconfig */,
+				9C91208CE43D8D07E65CCDA5 /* Pods-niuyao.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8D67D9235E8FAE00264912 /* Build configuration list for PBXNativeTarget "niuyao" */;
 			buildPhases = (
+				925DE5310949096084A1098E /* [CP] Check Pods Manifest.lock */,
 				4C8D67C1235E8FAA00264912 /* Sources */,
 				4C8D67C2235E8FAA00264912 /* Frameworks */,
 				4C8D67C3235E8FAA00264912 /* Resources */,
+				A4FAF6267C19C444403D96AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +176,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		925DE5310949096084A1098E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-niuyao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FAF6267C19C444403D96AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-niuyao/Pods-niuyao-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-niuyao/Pods-niuyao-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-niuyao/Pods-niuyao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C8D67C1235E8FAA00264912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,7 +225,10 @@
 			files = (
 				4C8D67C9235E8FAA00264912 /* AppDelegate.swift in Sources */,
 				4C8D67CB235E8FAA00264912 /* SceneDelegate.swift in Sources */,
+				4C8D67E5235EF49900264912 /* MusicListViewModel.swift in Sources */,
+				4C8D67E1235EF1C600264912 /* Music.swift in Sources */,
 				4C8D67CD235E8FAA00264912 /* ContentView.swift in Sources */,
+				4C8D67DD235EB41B00264912 /* NYViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +362,7 @@
 		};
 		4C8D67DA235E8FAE00264912 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365F388BEC810AC10A817625 /* Pods-niuyao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +383,7 @@
 		};
 		4C8D67DB235E8FAE00264912 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C91208CE43D8D07E65CCDA5 /* Pods-niuyao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

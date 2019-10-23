@@ -1,0 +1,10 @@
+#Podfile
+
+use_frameworks!
+
+target 'niuyao' do
+  pod 'SnapKit'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+
+end
