@@ -125,7 +125,7 @@ class NYViewController: UIViewController {
         
     }
     @objc func clickButton() -> Void {
-        
+        print("sdfd")
     }
 
 
