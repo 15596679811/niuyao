@@ -122,7 +122,6 @@ class NYViewController: UIViewController {
         }
         
         print("这是合并分支")
-        print("再次打印东西")
 //        tableView.rx.modelSelected(Music.self).subscribe
         
     }
