@@ -56,9 +56,7 @@ class NYViewController: UIViewController {
         //创建约束 makeConstraints
         redView.snp.makeConstraints { (make) in
             make.top.left.equalToSuperview().offset(30)
-            make.right.equalToSuperview().offset(-30)
-            
-            
+            make.right.equalToSuperview().offset(-30)            
         }
         
         //跟新约束 updateConstraints
