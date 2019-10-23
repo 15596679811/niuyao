@@ -121,7 +121,7 @@ class NYViewController: UIViewController {
             redView.superview?.layoutIfNeeded()
         }
         
-        
+        print("这是合并分支")
 //        tableView.rx.modelSelected(Music.self).subscribe
         
     }
