@@ -23,6 +23,7 @@ class NYViewController: UIViewController {
         super.viewDidLoad()
 
         print("z修复bug")
+        print("修复")
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
